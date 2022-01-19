@@ -1,0 +1,108 @@
+.landingPage {
+  padding: 30px;
+  text-align: center;
+  color: white;
+}
+
+.landingPageParagraph {
+  color: white;
+
+  width: 700px;
+  padding: 12px;
+  margin: auto;
+  text-align: center;
+}
+
+.searchBarInput {
+  height: 3rem;
+  margin-top: 1rem;
+  border-radius: 9px;
+  caret-color: crimson;
+  box-shadow: 0 0 9px 0 black, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+  color: darken(white, 20%);
+  font-size: 1.4rem;
+  font-weight: 600;
+  &:focus {
+    color: darken(white, 60%);
+    box-shadow: none;
+    box-shadow: 0 0 55px 0 black, 0 20px 25px 0 rgba(0, 0, 0, 0.2);
+  }
+}
+
+.jumbotron {
+  margin-left: 19%;
+  background-color: transparent;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  width: 1252px;
+}
+
+.jumbotron-video {
+  height: 670px;
+  width: 1190px;
+}
+
+.jumbotron-header {
+  padding: 10px;
+  h2 {
+    margin-bottom: 4px;
+  }
+  h5 {
+    color: black;
+  }
+}
+
+.videoList {
+  /* width: 90%; */
+  border-color: black;
+  border: 4px solid transparent;
+  border-radius: 3%;
+}
+
+.voteIcon {
+  color: "gold";
+  size: 1.25em;
+  fill: gold;
+}
+
+.numVotes {
+  display: inline;
+  h2 {
+    display: inline;
+  }
+}
+
+.videoItem {
+  padding-left: 48px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  width: 100%;
+  height: 230px;
+}
+
+.videoItemImage {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.videoItemTitle {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.videoItemContent {
+  margin-left: 19%;
+  padding: 4px;
+}
+
+.videoItemDescription {
+  width: 66%;
+}
+
+.video-list {
+  &:active {
+    background-color: darken(white, 10%);
+  }
+}

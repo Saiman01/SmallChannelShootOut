@@ -1,0 +1,66 @@
+$list-bg: lighten(rgb(8, 7, 7), 22%); // change the color of the list
+
+.home-card-box-video {
+  background-color: $list-bg;
+  border-radius: 9px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+
+  color: black;
+  cursor: pointer;
+  transition: box-shadow 500ms;
+  transition: transform 500ms ease;
+  box-shadow: -9px -3px 12px rgba(0, 0, 0, 0.7),
+    8px 2px 15px 0 rgba(0, 0, 0, 0.1);
+  &:hover {
+    transition: box-shadow 500ms;
+    border: 1px solid crimson;
+    box-shadow: -12px 1px 8px rgba(0, 0, 0, 0.3);
+    //zoom effect
+    -ms-transform: scale(0.92); // IE 9
+    -webkit-transform: scale(1.5); // Safari 3-8
+    transform: scale(1.05);
+    transition: transform 500ms ease;
+    z-index: 1;
+  }
+
+  /* &:first-child:hover {
+    margin: 0 30px;
+  } */
+}
+
+.star {
+  border: none;
+  //  background-color: $list-bg;
+  .star-icon {
+    background-color: $list-bg;
+  }
+  &:hover {
+    transform: scale(1.2);
+  }
+  &:active {
+    transform: scale(1.2) rotate(50deg);
+  }
+}
+
+.home-card-box-video-image {
+  &:hover {
+    opacity: 0.3;
+  }
+}
+
+.star-btn {
+  &:focus {
+    box-shadow: none;
+  }
+}
+.wrap {
+  border-radius: 9px;
+  background-color: lighten(black, 15%);
+  &:focus {
+    border-radius: 9px;
+  }
+}
+.login-design {
+  color: black;
+}
